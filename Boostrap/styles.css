@@ -1,3 +1,6 @@
+body{
+    background-color: gray;
+}
 
 .imgfondoPrimero {
     width: 100%;        
@@ -6,44 +9,46 @@
     left: 0;
 }
 
-.imgLogo{
-    margin-top: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imgSostenible{
+    margin-top: 430px;
+    margin-left: 0px;
 }
 
-.primerParrafo {
-    margin-top: 450px;
-    margin-right: 300px;
-
+.textoPrimero{
+    font-size: 20px;
 }
 
-@media(max-width: 1629px){
-
-    .primerParrafo {
-        margin-top: 370px;
-        margin-right: 300px;
-        margin-left: 200px;
-    
-    }
+.navbarNombreEmpresa{
+    margin-left: 0px;
 }
 
-@media(max-width: 1429px){
-
-    .primerParrafo {
-        margin-top: 320px;
-        margin-right: 300px;
-        margin-left: 200px;
-    
-    }
+.fotoReciclaje{
+    width: 400px;
+    height: 300px;
+    margin-top: 410px;
+    margin-bottom: 100px;
 }
 
+.textoSegundoParrafo{
+    margin-left: 450px;
+    margin-top: 100px;
+    font-size: 18px;
+}
 
-@media(max-width: 991px){
-    .sideBar {
-        background-color: rgba(255, 255, 255, 0.1); 
-        backdrop-filter: blur(10px); /* Aplica el filtro de desenfoque */
+.porqueSostenibles{
+    margin-bottom: 40px;
+}
 
-    }
+.porqueSostenibles:hover{
+    color: green;
+    cursor: pointer;
+    transition: color 0.6s ease;
+}
+
+.textoParrafo{
+    margin-top: 100px;
+}
+
+.textoo{
+    margin-left: 650px;
 }
