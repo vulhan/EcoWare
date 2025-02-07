@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(42, 78, 55, 0.8);
+}
+
+.textoEcoWare{
+    margin-left: 300px;
+}
+
+.QR{
+    margin-left: 200px;
+    width: 200px;
+    margin-top: 250px;
+}
+
+.textoContacto{
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 1100px;
+}
+
+.imagenLugar{
+    position: absolute;
+    margin-left: 1600px;
+    margin-top: 200px;
+}
+
+.navbarMover{
+    margin-right: 550px;
+    
+}
+
+.textoLogo{
+    margin-left: 350px;
+}
+
+.navbarHome{
+    margin-left: 450px;
+}
